@@ -25,4 +25,3 @@ class School
     end
   end
 end
-School.new('asdf')
