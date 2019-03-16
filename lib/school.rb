@@ -1,5 +1,5 @@
 class School
-   attr_accessor :name, :roster
+   attr_accessor *attributes
 
   def initialize(name)
     @name = name
@@ -22,6 +22,3 @@ class School
     end
 
 end
-
-
-p "i am not a crook" =~ /[i]/
